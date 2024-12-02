@@ -1,0 +1,94 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea el contenedor principal a la derecha */
+    background-image: url('/img/background.jpg'); 
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat;
+    background-position: center center; /* Centra la imagen de fondo */
+}
+
+/* Estilo del contenedor principal */
+.contentMain {
+    background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco con transparencia */
+    border: 3px solid #003366; /* Borde azul oscuro */
+    border-radius: 10px; /* Esquinas redondeadas */
+    width: 400px; /* Ajusta el ancho del contenedor */
+    padding: 20px; /*distancia interior*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-right: 20px; /* Separación del borde derecho */
+}
+
+/* Imagen del logo */
+.contentImg img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto; /* Centra la imagen y agrega espacio inferior */
+}
+
+/* Estilo del título */
+.title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #003366; /* Color azul oscuro */
+}
+
+h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Inputs */
+.inputUser, .inputPass {
+    margin-bottom: 22px;
+}
+
+.inputUser .input, .inputPass .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Enlaces */
+.text-center a {
+    display: inline-block;
+    margin: 15px 10px;
+    color: #003366;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+.text-center a:hover {
+    color: #0e7cea; /* Cambia el color al pasar el cursor en los enlaces */
+}
+
+/* Botón */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #003366;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0066cc; /* Color más claro al pasar el cursor */
+}
